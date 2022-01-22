@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax.effect</title>
+    <style>
+        .parallax {
+          /* The image used */
+          background-image: url("assets/images/parallax1.jpg");
+          background-position: center top,center bottom;
+          /* Set a specific height */
+          min-height: 350px; 
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          /* background-position: center; */
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .parallax1 {
+            background-image: url("assets/images/parallax2.jpg");
+            background-position: center bottom;
+            min-height: 500px;
+            font-size:36px
+        }
+        </style>
+</head>
+<body>
+    <p>The parallax scrolling effect.</p>
+
+<div class="parallax"></div>
+
+<div style="height:350px;background-color:rgba(129, 127, 127, 0.486);font-size:36px;background-position: center;">
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, enim consequuntur provident inventore reiciendis earum atque debitis ut repellat voluptas, culpa voluptatem explicabo ipsam alias distinctio aperiam, voluptatibus beatae! Debitis!
+</div>
+
+<div class="parallax1" style="font-style: italic;color: rgb(64, 212, 218);">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium blanditiis similique dicta vitae facilis nemo quas, laboriosam, harum fugiat vero sunt accusamus inventore eum. Vitae nobis velit praesentium corrupti itaque.
+</div>
+</body>
+</html>
